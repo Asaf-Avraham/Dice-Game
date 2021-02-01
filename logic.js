@@ -20,7 +20,7 @@ let obj = {
 
 // cubes picture and Attribute start
 rollcube = document.createElement("img");
-rollcube.setAttribute("src", "images/cube.png");
+rollcube.setAttribute("src", "cube.png");
 rollcube.setAttribute("height", "120");
 rollcube.setAttribute("width", "120");
 let pic = document.getElementById("rollcube")
@@ -224,7 +224,7 @@ function GameOver(player, opponet) {
     if (player.score >= elm.value) {
         player.player.style.color = "green"
         if (obj.title.textContent === "משחק הקוביות") { player.player.textContent = `${player.button.textContent} ניצח`; } else { player.player.textContent = `${player.button.textContent} win`; }
-        img.setAttribute("src", "images/source.gif");
+        img.setAttribute("src", "source.gif");
         img.setAttribute("height", "372");
         img.setAttribute("width", "355");
         let src = document.getElementById("x");
