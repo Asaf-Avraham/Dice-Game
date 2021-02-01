@@ -1,0 +1,117 @@
+/* style background color start*/
+body {
+    background-color: #cda44f;
+}
+
+/* style background color end*/
+
+/*Style the title start */
+#Title {
+    font-size  : 7rem;
+    text-align : center;
+    font-style : italic;
+    text-shadow: 1px 1px 1px red, 2px 2px 1px red;
+}
+
+/*Style the title end */
+
+/*Center the content start */
+.center {
+    text-align   : center;
+    align-content: center;
+    margin-top   : 5%;
+    border-style : solid;
+    border-width : 1px 1px;
+}
+
+/*Center the content end */
+
+
+/*Screen resizing large mode start */
+@media screen and (max-width: 1024px) {
+    #Title {
+        font-size  : 5rem;
+        text-align : center;
+        font-style : italic;
+        text-shadow: 1px 1px 1px red, 2px 2px 1px red;
+    }
+
+    span#player1 {
+        font-size: 2rem;
+    }
+
+    span#player2 {
+        font-size: 2rem;
+    }
+}
+
+/*Screen resizing large mode end */
+
+
+/*Screen resizing small mode start */
+@media screen and (max-width: 440px) {
+    #Title {
+        font-size  : 3rem;
+        text-align : center;
+        font-style : italic;
+        text-shadow: 1px 1px 1px red, 2px 2px 1px red;
+    }
+
+    .center {
+        text-align   : center;
+        align-content: center;
+        margin-top   : 0%;
+    }
+
+    #heb {
+        height     : 30px;
+        width      : 100px;
+        font-size  : 50%;
+        font-weight: bold;
+    }
+
+    #eng {
+        height     : 30px;
+        width      : 100px;
+        font-size  : 50%;
+        font-weight: bold;
+    }
+
+    span#player1 {
+        font-size: 1.3rem;
+    }
+
+    span#player2 {
+        font-size: 1.3rem;
+    }
+}
+
+/*Screen resizing small mode end */
+
+
+/* Resize text start */
+h1#note2 {
+    font-size: 1.3rem;
+}
+
+/* Resize text end */
+
+
+/* Style buttons start */
+#btn2 {
+    border-color: rgb(0, 0, 0);
+}
+
+#btn1 {
+    border-color: rgb(0, 0, 0);
+}
+
+#eng {
+    border-color: rgb(255, 0, 0);
+}
+
+#heb {
+    border-color: rgb(255, 0, 0);
+}
+
+/* Style buttons end */
